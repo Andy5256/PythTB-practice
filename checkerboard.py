@@ -19,8 +19,8 @@ orb=[[0.0,0.0],[0.5,0.5]]
 my_model=tb_model(2,2,lat,orb)
 
 # set model parameters
-delta=1.1
-t=0.6
+delta=2
+t=0.0
 
 # set on-site energies
 my_model.set_onsite([-delta,delta])
